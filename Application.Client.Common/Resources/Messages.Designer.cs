@@ -36,7 +36,7 @@ namespace Application.Client.Common.Resources {
         ///   Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Application.Client.Common.Resources.Messages", typeof(Messages).Assembly);
@@ -51,7 +51,7 @@ namespace Application.Client.Common.Resources {
         ///   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -68,7 +68,7 @@ namespace Application.Client.Common.Resources {
                 return ResourceManager.GetString("ClientExistMsg", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Busca una cadena traducida similar a The client does not exist..
         /// </summary>
@@ -77,13 +77,22 @@ namespace Application.Client.Common.Resources {
                 return ResourceManager.GetString("ClientNoExistMsg", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Busca una cadena traducida similar a Ok..
         /// </summary>
         public static string SuccessMsg {
             get {
                 return ResourceManager.GetString("SuccessMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a An unexpected error occurred within the service, please try again in a moment..
+        /// </summary>
+        public static string UnexpectedErrorMsg {
+            get {
+                return ResourceManager.GetString("UnexpectedErrorMsg", resourceCulture);
             }
         }
     }

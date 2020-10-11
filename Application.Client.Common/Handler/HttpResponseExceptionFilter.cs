@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Filters;
 using System;
 using System.Linq;
+using static Application.Client.Common.Resources.Messages;
 
 namespace Application.Client.Common.Handler
 {
@@ -29,7 +30,7 @@ namespace Application.Client.Common.Handler
             context.Result = new ObjectResult(new HttpResponseException
             {
                 Code = statusCode,
-                Message = (string.IsNullOrEmpty(msg)) ? "Ocurrió un error inesperado dentro del servicio, por favor vuélvalo a intentar en un momento." : msg,
+                Message = (string.IsNullOrEmpty(msg)) ? UnexpectedErrorMsg : msg,
                 Detail = ""
             })
             { StatusCode = statusCode };

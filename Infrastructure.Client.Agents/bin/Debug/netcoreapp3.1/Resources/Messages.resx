@@ -126,4 +126,7 @@
   <data name="SuccessMsg" xml:space="preserve">
     <value>Ok.</value>
   </data>
+  <data name="UnexpectedErrorMsg" xml:space="preserve">
+    <value>An unexpected error occurred within the service, please try again in a moment.</value>
+  </data>
 </root>
