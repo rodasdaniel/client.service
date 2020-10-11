@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Client.API</name>
+    </assembly>
+    <members>
+        <member name="T:Client.API.Controllers.ClientController">
+            <summary>
+            Controlador encargado de realizar las operaciones del Cliente
+            </summary>
+        </member>
+        <member name="M:Client.API.Controllers.ClientController.Create(Application.Client.Dtos.RequestClientDto)">
+            <summary>
+            Método a través del cual se realiza la creación de un nuevo registro de Cliente.
+            </summary>
+            <param name="requestClientDto">Representa los datos específicos del Cliente, necesarios para realizar el registro.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Client.API.Controllers.ClientController.Get(System.Int32,System.String)">
+            <summary>
+            Método a través del cual se obtienen los datos de un Cliente específico.
+            </summary>
+            <param name="idIdentificationType">Representa el identificador único del tipo de identificación del Cliente.</param>
+            <param name="identification">Representa el número de identificación del Cliente.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

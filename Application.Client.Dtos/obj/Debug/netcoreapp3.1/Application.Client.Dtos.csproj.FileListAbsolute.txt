@@ -1,0 +1,9 @@
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\bin\Debug\netcoreapp3.1\Application.Client.Dtos.deps.json
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\bin\Debug\netcoreapp3.1\Application.Client.Dtos.dll
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.csprojAssemblyReference.cache
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.AssemblyInfoInputs.cache
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.AssemblyInfo.cs
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\bin\Debug\netcoreapp3.1\Application.Client.Dtos.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.dll
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Dtos\obj\Debug\netcoreapp3.1\Application.Client.Dtos.csproj.CoreCompileInputs.cache

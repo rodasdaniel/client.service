@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L9nHef31jt1iwdIELFy/VE/G856kvCMOVsjWUjWIiIfsa3ux+gSttBSNPuVsBnfeBWcyXCpjGScNUJYGdoXujw==",
+  "success": true,
+  "projectFilePath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\bin\Debug\netcoreapp3.1\Application.Client.Common.deps.json
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\bin\Debug\netcoreapp3.1\Application.Client.Common.dll
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.csprojAssemblyReference.cache
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.AssemblyInfoInputs.cache
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.AssemblyInfo.cs
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\bin\Debug\netcoreapp3.1\Application.Client.Common.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.csproj.CoreCompileInputs.cache
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.dll
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\bin\Debug\netcoreapp3.1\Resources\Messages.resx
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.Resources.Messages.resources
+E:\Prueba SISTE\BackCode\Client.Service\Application.Client.Common\obj\Debug\netcoreapp3.1\Application.Client.Common.csproj.GenerateResource.cache

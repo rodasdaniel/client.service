@@ -1,0 +1,15 @@
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Domain.Client.Entities.dll
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.csprojAssemblyReference.cache
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.AssemblyInfoInputs.cache
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.AssemblyInfo.cs
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Infrastructure.Client.Data.deps.json
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Infrastructure.Client.Data.runtimeconfig.json
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Infrastructure.Client.Data.runtimeconfig.dev.json
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Infrastructure.Client.Data.dll
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Infrastructure.Client.Data.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\bin\Debug\netcoreapp3.1\Domain.Client.Entities.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.csproj.CoreCompileInputs.cache
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.csproj.CopyComplete
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.dll
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.pdb
+E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Data\obj\Debug\netcoreapp3.1\Infrastructure.Client.Data.genruntimeconfig.cache
