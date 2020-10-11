@@ -23,8 +23,6 @@ namespace Application.Client.Business.Client
             _homeRepository = homeRepository;
             _mapper = mapper;
         }
-
-        public IHomeRepository HomeRepository { get; }
         #endregion
         public async Task<(HttpStatusCode statusCode, string message, CreateClientResponseDto createClientResponseDto)>
             CreateClientAsync(RequestClientDto requestClientDto)
