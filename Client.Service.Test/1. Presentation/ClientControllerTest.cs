@@ -59,5 +59,16 @@ namespace Client.Service.Test
             Assert.NotNull(clientData);
             Assert.IsType<ClientDataResponse>(clientData);
         }
+        [Fact]
+        public void GetInfoClientAsync()
+        {
+            var actionResult = _controller.GetInfoClient(2).Result as ObjectResult;
+            var result = actionResult.Value as HttpResponseDto<InfoClientResponseDto>;
+            Assert.NotNull(result);
+            Assert.Equal(200, result.Code);
+            var clientData = result.Object;
+            Assert.NotNull(clientData);
+            Assert.IsType<InfoClientResponseDto>(clientData);
+        }
     }
 }

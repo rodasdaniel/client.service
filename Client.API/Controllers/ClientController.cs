@@ -64,5 +64,23 @@ namespace Client.API.Controllers
             IActionResult actionResult = ServiceAnswer<ClientDataResponse>.Response(statusCode, message, response);
             return actionResult;
         }
+
+        /// <summary>
+        /// Método a través del cual se obtiene la información del Cliente necesaria para la realización de un crédito.
+        /// </summary>
+        /// <param name="idClient">Representa el identificador único del registro del cliente.</param>
+        /// <returns></returns>
+        [HttpGet("GetInfoClient/{idClient}")]
+        [ProducesResponseType(typeof(HttpResponseDto<InfoClientResponseDto>), 200)]
+        public async Task<IActionResult> GetInfoClient(long idClient)
+        {
+            (HttpStatusCode statusCode, string message, InfoClientResponseDto response) =
+                await _clientsBusiness.GetInfoClientAsync(idClient);
+            if (statusCode != HttpStatusCode.NoContent && Response != null)
+            {
+                Response.StatusCode = (int)statusCode;
+            }
+            return ServiceAnswer<InfoClientResponseDto>.Response(statusCode, message, response);
+        }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L9nHef31jt1iwdIELFy/VE/G856kvCMOVsjWUjWIiIfsa3ux+gSttBSNPuVsBnfeBWcyXCpjGScNUJYGdoXujw==",
+  "dgSpecHash": "KjwRZhHrIyFXsY2PO1ScrAT52t5I5v1KDbWJ46y6+5nLznp2RABMS3uvSQSZqRkkpTn/nUxuvZFwcg0VbyTJgg==",
   "success": true,
-  "projectFilePath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+  "projectFilePath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

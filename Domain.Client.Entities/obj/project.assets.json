@@ -59,11 +59,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+      "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
       "projectName": "Domain.Client.Entities",
-      "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+      "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\obj\\",
+      "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

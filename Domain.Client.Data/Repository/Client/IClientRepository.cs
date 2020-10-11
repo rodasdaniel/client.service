@@ -7,5 +7,6 @@ namespace Infrastructure.Client.Data.Repository
     {
         Task<ClientEntity> GetById(int idType, string identification);
         Task<long> Create(ClientEntity clientEntity);
+        Task<ClientEntity> GetById(long idClient);
     }
 }

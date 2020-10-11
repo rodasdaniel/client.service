@@ -80,6 +80,18 @@ namespace Client.API.App_Start
                 .ForMember(dest => dest.AvailableSpace, opt => opt.MapFrom(src => src.CupoDisponible))
                 .ForAllMembers(opts => opts.PreCondition((src, dest, srcMember)
                   => srcMember != null && !string.IsNullOrWhiteSpace(srcMember?.ToString())));
+            CreateMap<ClientEntity, InfoClientResponseDto>().ReverseMap()
+                .ForMember(dest => dest.IdCliente, opt => opt.MapFrom(src => src.IdClient))
+                .ForMember(dest => dest.CupoTotal, opt => opt.MapFrom(src => src.TotalSpace))
+                .ForMember(dest => dest.CupoDisponible, opt => opt.MapFrom(src => src.AvailableSpace))
+                .ForAllMembers(opts => opts.PreCondition((src, dest, srcMember)
+                  => srcMember != null && !string.IsNullOrWhiteSpace(srcMember?.ToString())));
+            CreateMap<InfoClientResponseDto, ClientEntity>().ReverseMap()
+                .ForMember(dest => dest.IdClient, opt => opt.MapFrom(src => src.IdCliente))
+                .ForMember(dest => dest.TotalSpace, opt => opt.MapFrom(src => src.CupoTotal))
+                .ForMember(dest => dest.AvailableSpace, opt => opt.MapFrom(src => src.CupoDisponible))
+                .ForAllMembers(opts => opts.PreCondition((src, dest, srcMember)
+                  => srcMember != null && !string.IsNullOrWhiteSpace(srcMember?.ToString())));
         }
     }
 }

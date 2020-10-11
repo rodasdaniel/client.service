@@ -24,5 +24,12 @@
             <param name="identification">Representa el número de identificación del Cliente.</param>
             <returns></returns>
         </member>
+        <member name="M:Client.API.Controllers.ClientController.GetInfoClient(System.Int64)">
+            <summary>
+            Método a través del cual se obtiene la información del Cliente necesaria para la realización de un crédito.
+            </summary>
+            <param name="idClient">Representa el identificador único del registro del cliente.</param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

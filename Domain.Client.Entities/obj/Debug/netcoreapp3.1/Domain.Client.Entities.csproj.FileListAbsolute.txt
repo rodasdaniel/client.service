@@ -7,3 +7,12 @@ E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Entities\bin\Debug\netcore
 E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.dll
 E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.pdb
 E:\Prueba SISTE\BackCode\Client.Service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.csproj.CoreCompileInputs.cache
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\bin\Debug\netcoreapp3.1\Domain.Client.Entities.deps.json
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\bin\Debug\netcoreapp3.1\Domain.Client.Entities.dll
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\bin\Debug\netcoreapp3.1\Domain.Client.Entities.pdb
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.csprojAssemblyReference.cache
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.csproj.CoreCompileInputs.cache
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.AssemblyInfoInputs.cache
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.AssemblyInfo.cs
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.dll
+E:\Prueba SISTE\Code\client.service\Domain.Client.Entities\obj\Debug\netcoreapp3.1\Domain.Client.Entities.pdb

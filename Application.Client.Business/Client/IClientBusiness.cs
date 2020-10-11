@@ -10,5 +10,7 @@ namespace Application.Client.Business.Client
             GetClientAsync(int idType, string identification);
         Task<(HttpStatusCode statusCode, string message, CreateClientResponseDto createClientResponseDto)>
             CreateClientAsync(RequestClientDto requestClientDto);
+        Task<(HttpStatusCode statusCode, string message, InfoClientResponseDto createClientResponseDto)>
+            GetInfoClientAsync(long idClient);
     }
 }

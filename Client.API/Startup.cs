@@ -9,9 +9,12 @@ namespace Client.API
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly Microsoft.AspNetCore.Hosting.IHostingEnvironment _env;
+        public Startup(IConfiguration configuration,
+            Microsoft.AspNetCore.Hosting.IHostingEnvironment env)
         {
             Configuration = configuration;
+            _env = env;
         }
 
         public IConfiguration Configuration { get; }
@@ -26,7 +29,7 @@ namespace Client.API
             // (3) - Swagger Configuration
             SwaggerConfig.Register(services);
             // (4) - Setting Configuration
-            AppSettingsConfig.Register(services);
+            AppSettingsConfig.Register(services, _env, Configuration);
             // (5) - 
             services.AddControllers();
             // (6) - Filters configurations

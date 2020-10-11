@@ -27,5 +27,10 @@ namespace Infrastructure.Client.Data.Repository
             return await Task.FromResult(_context.Cliente.Where(c => c.IdTipoIdentifiacion == idType
             && c.Identificacion == identification).FirstOrDefault());
         }
+
+        public async Task<ClientEntity> GetById(long idClient)
+        {
+            return await Task.FromResult(_context.Cliente.Find(idClient));
+        }
     }
 }

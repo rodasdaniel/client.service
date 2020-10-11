@@ -53,6 +53,20 @@ namespace Application.Client.Business.Client
                 return (HttpStatusCode.OK, SuccessMsg, _mapper.Map<ClientDataResponse>(clientEntity));
             }
         }
+
+        public async Task<(HttpStatusCode statusCode, string message, InfoClientResponseDto createClientResponseDto)>
+            GetInfoClientAsync(long idClient)
+        {
+            ClientEntity clientEntity = _clientsRepository.GetById(idClient).Result;
+            if (clientEntity == null)
+            {
+                return (HttpStatusCode.NoContent, ClientNoExistMsg, null);
+            }
+            else
+            {
+                return (HttpStatusCode.OK, SuccessMsg, _mapper.Map<InfoClientResponseDto>(clientEntity));
+            }
+        }
         #region Private
         private void CreateHome(long idClient, RequestClientDto requestClientDto)
         {
@@ -64,7 +78,7 @@ namespace Application.Client.Business.Client
             clientEntity = _clientsRepository.GetById(idType, identification).Result;
             return clientEntity != null;
         }
-        private void CreateClient(RequestClientDto requestClientDto, ref ClientEntity clientEntity) 
+        private void CreateClient(RequestClientDto requestClientDto, ref ClientEntity clientEntity)
         {
             clientEntity = _mapper.Map<ClientEntity>(requestClientDto);
             clientEntity.CupoTotal = 2000000;

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Business\\Application.Client.Business.csproj": {}
+    "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Business\\Application.Client.Business.csproj": {}
   },
   "projects": {
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Business\\Application.Client.Business.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Business\\Application.Client.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Business\\Application.Client.Business.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Business\\Application.Client.Business.csproj",
         "projectName": "Application.Client.Business",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Business\\Application.Client.Business.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Business\\Application.Client.Business.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Business\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,20 +33,20 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj"
               },
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj"
               },
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj"
               },
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj"
               },
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj",
         "projectName": "Application.Client.Common",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -129,6 +129,14 @@
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -150,14 +158,14 @@
         }
       }
     },
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj",
         "projectName": "Application.Client.Dtos",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -214,14 +222,14 @@
         }
       }
     },
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj",
         "projectName": "Infrastructure.Client.Data",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\Infrastructure.Client.Data.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Data\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -243,8 +251,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj"
               }
             }
           }
@@ -300,14 +308,14 @@
         }
       }
     },
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
         "projectName": "Domain.Client.Entities",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\Domain.Client.Entities.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Domain.Client.Entities\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Domain.Client.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -364,14 +372,14 @@
         }
       }
     },
-    "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj": {
+    "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj",
+        "projectUniqueName": "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj",
         "projectName": "Infrastructure.Client.Agents",
-        "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj",
+        "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\Infrastructure.Client.Agents.csproj",
         "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Infrastructure.Client.Agents\\obj\\",
+        "outputPath": "E:\\Prueba SISTE\\Code\\client.service\\Infrastructure.Client.Agents\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -393,11 +401,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Common\\Application.Client.Common.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Common\\Application.Client.Common.csproj"
               },
-              "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
-                "projectPath": "E:\\Prueba SISTE\\BackCode\\Client.Service\\Application.Client.Dtos\\Application.Client.Dtos.csproj"
+              "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj": {
+                "projectPath": "E:\\Prueba SISTE\\Code\\client.service\\Application.Client.Dtos\\Application.Client.Dtos.csproj"
               }
             }
           }

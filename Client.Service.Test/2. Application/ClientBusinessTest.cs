@@ -42,6 +42,7 @@ namespace Client.Service.Test
             }
         }
         #endregion
+
         public async Task<(HttpStatusCode statusCode, string message, CreateClientResponseDto createClientResponseDto)>
             CreateClientAsync(RequestClientDto requestClientDto)
         {
@@ -64,6 +65,21 @@ namespace Client.Service.Test
                 return (HttpStatusCode.OK, SuccessMsg, _mapper.Map<ClientDataResponse>(clientEntity));
             }
         }
+
+        public async Task<(HttpStatusCode statusCode, string message, InfoClientResponseDto createClientResponseDto)>
+            GetInfoClientAsync(long idClient)
+        {
+            ClientEntity clientEntity = clients.Where(c => c.IdCliente == idClient).FirstOrDefault();
+            if (clientEntity == null)
+            {
+                return (HttpStatusCode.NoContent, ClientNoExistMsg, null);
+            }
+            else
+            {
+                return (HttpStatusCode.OK, SuccessMsg, _mapper.Map<InfoClientResponseDto>(clientEntity));
+            }
+        }
+
         #region Private
         private void CreateHome(long idClient, RequestClientDto requestClientDto)
         {
