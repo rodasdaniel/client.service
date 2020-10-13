@@ -178,3 +178,4 @@ E:\Prueba SISTE\Code\client.service\Client.API\obj\Debug\netcoreapp3.1\staticweb
 E:\Prueba SISTE\Code\client.service\Client.API\obj\Debug\netcoreapp3.1\Client.API.dll
 E:\Prueba SISTE\Code\client.service\Client.API\obj\Debug\netcoreapp3.1\Client.API.pdb
 E:\Prueba SISTE\Code\client.service\Client.API\obj\Debug\netcoreapp3.1\Client.API.genruntimeconfig.cache
+E:\Prueba SISTE\Code\client.service\Client.API\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json
